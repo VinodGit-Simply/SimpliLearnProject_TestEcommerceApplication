@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-21T13:29:17 IST" name="simplilearn_project_assigment_cucumberscenarios" finished-at="2024-05-21T13:29:44 IST" duration-ms="26498">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SimpliLearn_Assignment.Project_Test_EcommerceApp.CucumberTests.Runner.TestRunner@305ffe9e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-21T13:29:17 IST" name="test cart funcationality" finished-at="2024-05-21T13:29:44 IST" duration-ms="26498">
+      <class name="SimpliLearn_Assignment.Project_Test_EcommerceApp.CucumberTests.Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SimpliLearn_Assignment.Project_Test_EcommerceApp.CucumberTests.Runner.TestRunner@305ffe9e]" started-at="2024-05-21T13:29:17 IST" name="setUpClass" finished-at="2024-05-21T13:29:18 IST" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22d9bc14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SimpliLearn_Assignment.Project_Test_EcommerceApp.CucumberTests.Runner.TestRunner@305ffe9e]" started-at="2024-05-21T13:29:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-21T13:29:44 IST" duration-ms="25931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the AddToCart Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Cart Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SimpliLearn_Assignment.Project_Test_EcommerceApp.CucumberTests.Runner.TestRunner@305ffe9e]" started-at="2024-05-21T13:29:44 IST" name="tearDownClass" finished-at="2024-05-21T13:29:44 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SimpliLearn_Assignment.Project_Test_EcommerceApp.CucumberTests.Runner.TestRunner -->
+    </test> <!-- test cart funcationality -->
+  </suite> <!-- simplilearn_project_assigment_cucumberscenarios -->
+</testng-results>
